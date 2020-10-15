@@ -1,13 +1,13 @@
 //
-//  TaskBarUITests.swift
-//  TaskBarUITests
+//  TabBarUITests.swift
+//  TabBarUITests
 //
 //  Created by Rahul Mahendru on 10/15/20.
 //
 
 import XCTest
 
-class TaskBarUITests: XCTestCase {
+class TabBarUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

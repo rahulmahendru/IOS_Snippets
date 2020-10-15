@@ -7,62 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F74548792538746C00762A47 /* TaskBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74548782538746C00762A47 /* TaskBarApp.swift */; };
-		F745487B2538746C00762A47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F745487A2538746C00762A47 /* ContentView.swift */; };
-		F745487D2538746F00762A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F745487C2538746F00762A47 /* Assets.xcassets */; };
-		F74548802538746F00762A47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F745487F2538746F00762A47 /* Preview Assets.xcassets */; };
-		F745488B2538746F00762A47 /* TaskBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F745488A2538746F00762A47 /* TaskBarTests.swift */; };
-		F74548962538746F00762A47 /* TaskBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74548952538746F00762A47 /* TaskBarUITests.swift */; };
+		F74548DA2538762600762A47 /* TabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74548D92538762600762A47 /* TabBarApp.swift */; };
+		F74548DC2538762600762A47 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74548DB2538762600762A47 /* TabBarView.swift */; };
+		F74548DE2538762900762A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74548DD2538762900762A47 /* Assets.xcassets */; };
+		F74548E12538762900762A47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74548E02538762900762A47 /* Preview Assets.xcassets */; };
+		F74548EC2538762900762A47 /* TabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74548EB2538762900762A47 /* TabBarTests.swift */; };
+		F74548F72538762900762A47 /* TabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74548F62538762900762A47 /* TabBarUITests.swift */; };
+		F745490B2538763E00762A47 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F745490A2538763E00762A47 /* HomeView.swift */; };
+		F74549102538764D00762A47 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F745490F2538764D00762A47 /* ProfileView.swift */; };
+		F74549152538765900762A47 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74549142538765900762A47 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F74548872538746F00762A47 /* PBXContainerItemProxy */ = {
+		F74548E82538762900762A47 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F745486D2538746C00762A47 /* Project object */;
+			containerPortal = F74548CE2538762600762A47 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F74548742538746C00762A47;
-			remoteInfo = TaskBar;
+			remoteGlobalIDString = F74548D52538762600762A47;
+			remoteInfo = TabBar;
 		};
-		F74548922538746F00762A47 /* PBXContainerItemProxy */ = {
+		F74548F32538762900762A47 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F745486D2538746C00762A47 /* Project object */;
+			containerPortal = F74548CE2538762600762A47 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F74548742538746C00762A47;
-			remoteInfo = TaskBar;
+			remoteGlobalIDString = F74548D52538762600762A47;
+			remoteInfo = TabBar;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F74548752538746C00762A47 /* TaskBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F74548782538746C00762A47 /* TaskBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBarApp.swift; sourceTree = "<group>"; };
-		F745487A2538746C00762A47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F745487C2538746F00762A47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F745487F2538746F00762A47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F74548812538746F00762A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F74548862538746F00762A47 /* TaskBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F745488A2538746F00762A47 /* TaskBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBarTests.swift; sourceTree = "<group>"; };
-		F745488C2538746F00762A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F74548912538746F00762A47 /* TaskBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F74548952538746F00762A47 /* TaskBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBarUITests.swift; sourceTree = "<group>"; };
-		F74548972538746F00762A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74548D62538762600762A47 /* TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74548D92538762600762A47 /* TabBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarApp.swift; sourceTree = "<group>"; };
+		F74548DB2538762600762A47 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		F74548DD2538762900762A47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F74548E02538762900762A47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F74548E22538762900762A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74548E72538762900762A47 /* TabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74548EB2538762900762A47 /* TabBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarTests.swift; sourceTree = "<group>"; };
+		F74548ED2538762900762A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74548F22538762900762A47 /* TabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74548F62538762900762A47 /* TabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarUITests.swift; sourceTree = "<group>"; };
+		F74548F82538762900762A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F745490A2538763E00762A47 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F745490F2538764D00762A47 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F74549142538765900762A47 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F74548722538746C00762A47 /* Frameworks */ = {
+		F74548D32538762600762A47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F74548832538746F00762A47 /* Frameworks */ = {
+		F74548E42538762900762A47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F745488E2538746F00762A47 /* Frameworks */ = {
+		F74548EF2538762900762A47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,143 +78,146 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F745486C2538746C00762A47 = {
+		F74548CD2538762600762A47 = {
 			isa = PBXGroup;
 			children = (
-				F74548772538746C00762A47 /* TaskBar */,
-				F74548892538746F00762A47 /* TaskBarTests */,
-				F74548942538746F00762A47 /* TaskBarUITests */,
-				F74548762538746C00762A47 /* Products */,
+				F74548D82538762600762A47 /* TabBar */,
+				F74548EA2538762900762A47 /* TabBarTests */,
+				F74548F52538762900762A47 /* TabBarUITests */,
+				F74548D72538762600762A47 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F74548762538746C00762A47 /* Products */ = {
+		F74548D72538762600762A47 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F74548752538746C00762A47 /* TaskBar.app */,
-				F74548862538746F00762A47 /* TaskBarTests.xctest */,
-				F74548912538746F00762A47 /* TaskBarUITests.xctest */,
+				F74548D62538762600762A47 /* TabBar.app */,
+				F74548E72538762900762A47 /* TabBarTests.xctest */,
+				F74548F22538762900762A47 /* TabBarUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F74548772538746C00762A47 /* TaskBar */ = {
+		F74548D82538762600762A47 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
-				F74548782538746C00762A47 /* TaskBarApp.swift */,
-				F745487A2538746C00762A47 /* ContentView.swift */,
-				F745487C2538746F00762A47 /* Assets.xcassets */,
-				F74548812538746F00762A47 /* Info.plist */,
-				F745487E2538746F00762A47 /* Preview Content */,
+				F74548D92538762600762A47 /* TabBarApp.swift */,
+				F74548DB2538762600762A47 /* TabBarView.swift */,
+				F74548DD2538762900762A47 /* Assets.xcassets */,
+				F74548E22538762900762A47 /* Info.plist */,
+				F74548DF2538762900762A47 /* Preview Content */,
+				F745490A2538763E00762A47 /* HomeView.swift */,
+				F745490F2538764D00762A47 /* ProfileView.swift */,
+				F74549142538765900762A47 /* SettingsView.swift */,
 			);
-			path = TaskBar;
+			path = TabBar;
 			sourceTree = "<group>";
 		};
-		F745487E2538746F00762A47 /* Preview Content */ = {
+		F74548DF2538762900762A47 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F745487F2538746F00762A47 /* Preview Assets.xcassets */,
+				F74548E02538762900762A47 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F74548892538746F00762A47 /* TaskBarTests */ = {
+		F74548EA2538762900762A47 /* TabBarTests */ = {
 			isa = PBXGroup;
 			children = (
-				F745488A2538746F00762A47 /* TaskBarTests.swift */,
-				F745488C2538746F00762A47 /* Info.plist */,
+				F74548EB2538762900762A47 /* TabBarTests.swift */,
+				F74548ED2538762900762A47 /* Info.plist */,
 			);
-			path = TaskBarTests;
+			path = TabBarTests;
 			sourceTree = "<group>";
 		};
-		F74548942538746F00762A47 /* TaskBarUITests */ = {
+		F74548F52538762900762A47 /* TabBarUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F74548952538746F00762A47 /* TaskBarUITests.swift */,
-				F74548972538746F00762A47 /* Info.plist */,
+				F74548F62538762900762A47 /* TabBarUITests.swift */,
+				F74548F82538762900762A47 /* Info.plist */,
 			);
-			path = TaskBarUITests;
+			path = TabBarUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F74548742538746C00762A47 /* TaskBar */ = {
+		F74548D52538762600762A47 /* TabBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F745489A2538746F00762A47 /* Build configuration list for PBXNativeTarget "TaskBar" */;
+			buildConfigurationList = F74548FB2538762900762A47 /* Build configuration list for PBXNativeTarget "TabBar" */;
 			buildPhases = (
-				F74548712538746C00762A47 /* Sources */,
-				F74548722538746C00762A47 /* Frameworks */,
-				F74548732538746C00762A47 /* Resources */,
+				F74548D22538762600762A47 /* Sources */,
+				F74548D32538762600762A47 /* Frameworks */,
+				F74548D42538762600762A47 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TaskBar;
-			productName = TaskBar;
-			productReference = F74548752538746C00762A47 /* TaskBar.app */;
+			name = TabBar;
+			productName = TabBar;
+			productReference = F74548D62538762600762A47 /* TabBar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F74548852538746F00762A47 /* TaskBarTests */ = {
+		F74548E62538762900762A47 /* TabBarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F745489D2538746F00762A47 /* Build configuration list for PBXNativeTarget "TaskBarTests" */;
+			buildConfigurationList = F74548FE2538762900762A47 /* Build configuration list for PBXNativeTarget "TabBarTests" */;
 			buildPhases = (
-				F74548822538746F00762A47 /* Sources */,
-				F74548832538746F00762A47 /* Frameworks */,
-				F74548842538746F00762A47 /* Resources */,
+				F74548E32538762900762A47 /* Sources */,
+				F74548E42538762900762A47 /* Frameworks */,
+				F74548E52538762900762A47 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F74548882538746F00762A47 /* PBXTargetDependency */,
+				F74548E92538762900762A47 /* PBXTargetDependency */,
 			);
-			name = TaskBarTests;
-			productName = TaskBarTests;
-			productReference = F74548862538746F00762A47 /* TaskBarTests.xctest */;
+			name = TabBarTests;
+			productName = TabBarTests;
+			productReference = F74548E72538762900762A47 /* TabBarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F74548902538746F00762A47 /* TaskBarUITests */ = {
+		F74548F12538762900762A47 /* TabBarUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F74548A02538746F00762A47 /* Build configuration list for PBXNativeTarget "TaskBarUITests" */;
+			buildConfigurationList = F74549012538762900762A47 /* Build configuration list for PBXNativeTarget "TabBarUITests" */;
 			buildPhases = (
-				F745488D2538746F00762A47 /* Sources */,
-				F745488E2538746F00762A47 /* Frameworks */,
-				F745488F2538746F00762A47 /* Resources */,
+				F74548EE2538762900762A47 /* Sources */,
+				F74548EF2538762900762A47 /* Frameworks */,
+				F74548F02538762900762A47 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F74548932538746F00762A47 /* PBXTargetDependency */,
+				F74548F42538762900762A47 /* PBXTargetDependency */,
 			);
-			name = TaskBarUITests;
-			productName = TaskBarUITests;
-			productReference = F74548912538746F00762A47 /* TaskBarUITests.xctest */;
+			name = TabBarUITests;
+			productName = TabBarUITests;
+			productReference = F74548F22538762900762A47 /* TabBarUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F745486D2538746C00762A47 /* Project object */ = {
+		F74548CE2538762600762A47 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					F74548742538746C00762A47 = {
+					F74548D52538762600762A47 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
-					F74548852538746F00762A47 = {
+					F74548E62538762900762A47 = {
 						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = F74548742538746C00762A47;
+						TestTargetID = F74548D52538762600762A47;
 					};
-					F74548902538746F00762A47 = {
+					F74548F12538762900762A47 = {
 						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = F74548742538746C00762A47;
+						TestTargetID = F74548D52538762600762A47;
 					};
 				};
 			};
-			buildConfigurationList = F74548702538746C00762A47 /* Build configuration list for PBXProject "TaskBar" */;
+			buildConfigurationList = F74548D12538762600762A47 /* Build configuration list for PBXProject "TabBar" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +225,36 @@
 				en,
 				Base,
 			);
-			mainGroup = F745486C2538746C00762A47;
-			productRefGroup = F74548762538746C00762A47 /* Products */;
+			mainGroup = F74548CD2538762600762A47;
+			productRefGroup = F74548D72538762600762A47 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F74548742538746C00762A47 /* TaskBar */,
-				F74548852538746F00762A47 /* TaskBarTests */,
-				F74548902538746F00762A47 /* TaskBarUITests */,
+				F74548D52538762600762A47 /* TabBar */,
+				F74548E62538762900762A47 /* TabBarTests */,
+				F74548F12538762900762A47 /* TabBarUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F74548732538746C00762A47 /* Resources */ = {
+		F74548D42538762600762A47 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F74548802538746F00762A47 /* Preview Assets.xcassets in Resources */,
-				F745487D2538746F00762A47 /* Assets.xcassets in Resources */,
+				F74548E12538762900762A47 /* Preview Assets.xcassets in Resources */,
+				F74548DE2538762900762A47 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F74548842538746F00762A47 /* Resources */ = {
+		F74548E52538762900762A47 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F745488F2538746F00762A47 /* Resources */ = {
+		F74548F02538762900762A47 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,48 +264,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F74548712538746C00762A47 /* Sources */ = {
+		F74548D22538762600762A47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F745487B2538746C00762A47 /* ContentView.swift in Sources */,
-				F74548792538746C00762A47 /* TaskBarApp.swift in Sources */,
+				F74549152538765900762A47 /* SettingsView.swift in Sources */,
+				F74549102538764D00762A47 /* ProfileView.swift in Sources */,
+				F745490B2538763E00762A47 /* HomeView.swift in Sources */,
+				F74548DC2538762600762A47 /* TabBarView.swift in Sources */,
+				F74548DA2538762600762A47 /* TabBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F74548822538746F00762A47 /* Sources */ = {
+		F74548E32538762900762A47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F745488B2538746F00762A47 /* TaskBarTests.swift in Sources */,
+				F74548EC2538762900762A47 /* TabBarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F745488D2538746F00762A47 /* Sources */ = {
+		F74548EE2538762900762A47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F74548962538746F00762A47 /* TaskBarUITests.swift in Sources */,
+				F74548F72538762900762A47 /* TabBarUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F74548882538746F00762A47 /* PBXTargetDependency */ = {
+		F74548E92538762900762A47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F74548742538746C00762A47 /* TaskBar */;
-			targetProxy = F74548872538746F00762A47 /* PBXContainerItemProxy */;
+			target = F74548D52538762600762A47 /* TabBar */;
+			targetProxy = F74548E82538762900762A47 /* PBXContainerItemProxy */;
 		};
-		F74548932538746F00762A47 /* PBXTargetDependency */ = {
+		F74548F42538762900762A47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F74548742538746C00762A47 /* TaskBar */;
-			targetProxy = F74548922538746F00762A47 /* PBXContainerItemProxy */;
+			target = F74548D52538762600762A47 /* TabBar */;
+			targetProxy = F74548F32538762900762A47 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		F74548982538746F00762A47 /* Debug */ = {
+		F74548F92538762900762A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +369,7 @@
 			};
 			name = Debug;
 		};
-		F74548992538746F00762A47 /* Release */ = {
+		F74548FA2538762900762A47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,174 +424,174 @@
 			};
 			name = Release;
 		};
-		F745489B2538746F00762A47 /* Debug */ = {
+		F74548FC2538762900762A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TaskBar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TabBar/Preview Content\"";
 				DEVELOPMENT_TEAM = JVCC82QURG;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TaskBar/Info.plist;
+				INFOPLIST_FILE = TabBar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TaskBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F745489C2538746F00762A47 /* Release */ = {
+		F74548FD2538762900762A47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TaskBar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TabBar/Preview Content\"";
 				DEVELOPMENT_TEAM = JVCC82QURG;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TaskBar/Info.plist;
+				INFOPLIST_FILE = TabBar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TaskBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		F745489E2538746F00762A47 /* Debug */ = {
+		F74548FF2538762900762A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JVCC82QURG;
-				INFOPLIST_FILE = TaskBarTests/Info.plist;
+				INFOPLIST_FILE = TabBarTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TaskBarTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TabBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskBar.app/TaskBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBar.app/TabBar";
 			};
 			name = Debug;
 		};
-		F745489F2538746F00762A47 /* Release */ = {
+		F74549002538762900762A47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JVCC82QURG;
-				INFOPLIST_FILE = TaskBarTests/Info.plist;
+				INFOPLIST_FILE = TabBarTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TaskBarTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TabBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskBar.app/TaskBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabBar.app/TabBar";
 			};
 			name = Release;
 		};
-		F74548A12538746F00762A47 /* Debug */ = {
+		F74549022538762900762A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JVCC82QURG;
-				INFOPLIST_FILE = TaskBarUITests/Info.plist;
+				INFOPLIST_FILE = TabBarUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TaskBarUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TabBarUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TaskBar;
+				TEST_TARGET_NAME = TabBar;
 			};
 			name = Debug;
 		};
-		F74548A22538746F00762A47 /* Release */ = {
+		F74549032538762900762A47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JVCC82QURG;
-				INFOPLIST_FILE = TaskBarUITests/Info.plist;
+				INFOPLIST_FILE = TabBarUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TaskBarUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TabBarUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TaskBar;
+				TEST_TARGET_NAME = TabBar;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F74548702538746C00762A47 /* Build configuration list for PBXProject "TaskBar" */ = {
+		F74548D12538762600762A47 /* Build configuration list for PBXProject "TabBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F74548982538746F00762A47 /* Debug */,
-				F74548992538746F00762A47 /* Release */,
+				F74548F92538762900762A47 /* Debug */,
+				F74548FA2538762900762A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F745489A2538746F00762A47 /* Build configuration list for PBXNativeTarget "TaskBar" */ = {
+		F74548FB2538762900762A47 /* Build configuration list for PBXNativeTarget "TabBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F745489B2538746F00762A47 /* Debug */,
-				F745489C2538746F00762A47 /* Release */,
+				F74548FC2538762900762A47 /* Debug */,
+				F74548FD2538762900762A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F745489D2538746F00762A47 /* Build configuration list for PBXNativeTarget "TaskBarTests" */ = {
+		F74548FE2538762900762A47 /* Build configuration list for PBXNativeTarget "TabBarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F745489E2538746F00762A47 /* Debug */,
-				F745489F2538746F00762A47 /* Release */,
+				F74548FF2538762900762A47 /* Debug */,
+				F74549002538762900762A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F74548A02538746F00762A47 /* Build configuration list for PBXNativeTarget "TaskBarUITests" */ = {
+		F74549012538762900762A47 /* Build configuration list for PBXNativeTarget "TabBarUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F74548A12538746F00762A47 /* Debug */,
-				F74548A22538746F00762A47 /* Release */,
+				F74549022538762900762A47 /* Debug */,
+				F74549032538762900762A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F745486D2538746C00762A47 /* Project object */;
+	rootObject = F74548CE2538762600762A47 /* Project object */;
 }
